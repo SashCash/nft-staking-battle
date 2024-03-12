@@ -409,8 +409,8 @@
       ]
     },
     "/Users/yevgeniyvasilyev/src/portfolio/nft-staking-battle/contracts/SamuraiNFT.sol": {
-      "lastModificationDate": 1710214794907,
-      "contentHash": "2e72227a271cb95f2705d8056307d19c",
+      "lastModificationDate": 1710216158809,
+      "contentHash": "1cb5c707599280662e4a321bc222ca7c",
       "sourceName": "contracts/SamuraiNFT.sol",
       "solcConfig": {
         "version": "0.8.20",
@@ -444,8 +444,8 @@
         }
       },
       "imports": [
-        "./BaseHelper.sol",
-        "@openzeppelin/contracts-upgradeable/token/ERC721/ERC721Upgradeable.sol"
+        "@openzeppelin/contracts-upgradeable/token/ERC721/ERC721Upgradeable.sol",
+        "./BaseHelper.sol"
       ],
       "versionPragmas": [
         "^0.8.20"
@@ -818,8 +818,8 @@
       ]
     },
     "/Users/yevgeniyvasilyev/src/portfolio/nft-staking-battle/contracts/Battle.sol": {
-      "lastModificationDate": 1710214809235,
-      "contentHash": "b29e379a6b0730d074d6dd57a4461c7b",
+      "lastModificationDate": 1710223305001,
+      "contentHash": "bec5a244cb0908b6addabc5332a9718e",
       "sourceName": "contracts/Battle.sol",
       "solcConfig": {
         "version": "0.8.20",
@@ -864,8 +864,8 @@
       ]
     },
     "/Users/yevgeniyvasilyev/src/portfolio/nft-staking-battle/contracts/KnightNFT.sol": {
-      "lastModificationDate": 1710214783751,
-      "contentHash": "349ecc3e94fbd42ee2130c45149b717f",
+      "lastModificationDate": 1710216151093,
+      "contentHash": "f1fb5680cac18ed04d80fdce0e96979e",
       "sourceName": "contracts/KnightNFT.sol",
       "solcConfig": {
         "version": "0.8.20",
@@ -899,8 +899,8 @@
         }
       },
       "imports": [
-        "./BaseHelper.sol",
-        "@openzeppelin/contracts-upgradeable/token/ERC721/ERC721Upgradeable.sol"
+        "@openzeppelin/contracts-upgradeable/token/ERC721/ERC721Upgradeable.sol",
+        "./BaseHelper.sol"
       ],
       "versionPragmas": [
         "^0.8.20"

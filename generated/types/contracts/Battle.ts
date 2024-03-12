@@ -152,7 +152,7 @@ export interface BattleInterface extends Interface {
   ): string;
   encodeFunctionData(
     functionFragment: "joinBattle",
-    values: [BigNumberish]
+    values: [BigNumberish, BigNumberish]
   ): string;
   encodeFunctionData(functionFragment: "knightNFT", values?: undefined): string;
   encodeFunctionData(functionFragment: "pause", values?: undefined): string;
@@ -466,7 +466,7 @@ export interface Battle extends BaseContract {
   >;
 
   joinBattle: TypedContractMethod<
-    [playerTwoTokenId: BigNumberish],
+    [playerTwoTokenId: BigNumberish, battleId: BigNumberish],
     [void],
     "nonpayable"
   >;
@@ -592,7 +592,7 @@ export interface Battle extends BaseContract {
   getFunction(
     nameOrSignature: "joinBattle"
   ): TypedContractMethod<
-    [playerTwoTokenId: BigNumberish],
+    [playerTwoTokenId: BigNumberish, battleId: BigNumberish],
     [void],
     "nonpayable"
   >;
