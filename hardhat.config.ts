@@ -6,6 +6,10 @@ import "@nomicfoundation/hardhat-ethers";
 import "@openzeppelin/hardhat-upgrades";
 import "hardhat-deploy";
 
+import "./src/deploy-contracts";
+import "./src/upgrade-contracts";
+import "./src/grant-role";
+
 const config: HardhatUserConfig = {
   solidity: {
     compilers: [
